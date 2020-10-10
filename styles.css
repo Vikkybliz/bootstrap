@@ -1,0 +1,135 @@
+#title{
+    background-color: #cb3365;
+    color: #fff;
+}
+
+body{
+    font-family: 'Montserrat';
+}
+
+h1{
+        font-family: 'Sansita Swashed', cursive;
+        font-weight: 900;
+        font-size: 3rem;
+        line-height: 1.5;
+}
+
+h2{
+    font-family: 'Ubuntu';
+    line-height: 1.5;
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+h3{
+    font-family: 'Sansita Swashed';
+    font-weight: bold;
+}
+
+p{
+    color: #Bfbfbf;
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+.title{
+    font-family: 'Sacramento', cursive;
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+/* Nav Bar */
+
+.navbar{
+    padding:0, 0, 4.5rem;
+}
+
+.nav-icon{
+    padding: 0, 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat-light';
+}
+
+/*Features*/
+#features{
+    padding: 7% 15%;
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+.icon{
+    color: #db7078;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #db7093;
+}
+
+/*Testimonials*/
+
+#testimonials{
+    background-color: #db7093;
+    text-align: center;
+    color: #fff;
+}
+
+#press{
+    background-color: #db7093;
+    text-align: center;
+    padding: 7% 15%;
+    margin-bottom: 1rem;
+}
+
+.pressimage{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.testimage{
+    border-radius: 100%;
+    width: 15%;
+    margin: 20px;
+}
+
+/*Pricing Section*/
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.cog{
+    padding: 3% 2%;
+}
+
+/*CTA SECTION*/
+#cta{
+    background-color: #cb3365;
+    color: #fff;
+    padding: 7% 15%;
+}
+
+.cta{
+    font-family: 'Sansita Swashed', cursive;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.social{
+    padding: 7% 10%;
+}
+
+@media (max-width 1028px) {
+    #title {
+        text-align: center;
+    }
+}
